@@ -3,7 +3,7 @@ const axios = require('axios')
 module.exports = async (req, res) => { 
 
     let resultArray = []
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 5; i++) {
         const result = await axios.get('https://randomuser.me/api')
         resultArray.push(result.data.results[0])
     }
