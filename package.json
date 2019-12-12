@@ -1,0 +1,27 @@
+{
+	"name": "celo-test-backend",
+	"version": "1.0.0",
+	"description": "test project for celo health nz",
+	"main": "celo-backend.js",
+	"scripts": {
+		"start": "nodemon celo-backend.js",
+		"test": "jest --watch"
+	},
+	"jest": {
+		"testEnvironment": "node"
+	},
+	"keywords": [],
+	"author": "Nathan Widjaja",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.2",
+		"jest": "^24.9.0",
+		"supertest": "^4.0.2"
+	}
+}
